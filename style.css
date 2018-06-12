@@ -1,0 +1,45 @@
+:root{
+font-size: 20px;
+}
+body{
+	background-color:#192a56; 
+font-family: 'Righteous', cursive;
+}
+input {
+ outline:none;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	}
+	.text-center{
+		color: white;
+		font-size: 1.5rem;
+		
+	}
+	.first{
+		margin-top: 10px;
+	}
+	.second{
+		margin-top:10px; 
+	}
+	.third{
+		margin-top: 10px;
+	}
+	.four{
+		margin-top: 10px;
+	}
+	.answer{ 
+		border-style: none;
+		padding: 10px 10px 10px 10px;
+		border-radius: 50px;
+		width: 100%;
+	}
+	@media screen and (max-width: 500px){
+		:root{
+         font-size: 15px;
+		}
+	}
